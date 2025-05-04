@@ -66,16 +66,16 @@
   <ItemGroup>
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/LocalPositionOffsetAffordanceReceiver.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/HandsOneEuroFilterPostProcessor.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ToggleGraphicToggler.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/PokeGestureDetector.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/HideObjectWhenRayInteractorBlocked.cs" />
+    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/Vector3ScaleAffordanceReceiver.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/OneEuroFilterVector3.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/PinchPointFollow.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ToggleGraphicToggler.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ToggleGameObject.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/TransformSync.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ObjectResetPlane.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/MetaSystemGestureDetector.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/PokeGestureDetector.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/Scripts/HideObjectWhenRayInteractorBlocked.cs" />
-    <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/Vector3ScaleAffordanceReceiver.cs" />
     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.6.4/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/PokeBlendShapeAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
