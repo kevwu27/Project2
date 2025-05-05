@@ -421,13 +421,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326588491}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214979379}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -50, y: 0}
@@ -545,7 +545,7 @@ MonoBehaviour:
   xrOrigin: {fileID: 366066299}
   scaleFactor: 0.025400052
   spawnOffset: 3
-  arrowPointer: {fileID: 0}
+  arrowPointer: {fileID: 1214979375}
 --- !u!4 &663926451
 Transform:
   m_ObjectHideFlags: 0
@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 757099244}
   m_Layer: 0
   m_Name: XR Origin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -786,6 +786,7 @@ MonoBehaviour:
   xrCamera: {fileID: 1930464857}
   arrowImage: {fileID: 326588492}
   checkpoints: []
+  currentCheckpoint: 0
 --- !u!114 &1214979376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1063,6 +1064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Interaction Hands Setup
       objectReference: {fileID: 0}
+    - target: {fileID: 865075385244835223, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1942626908999483018, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1123,6 +1128,10 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8733093507751517971, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1162,6 +1171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xrOrigin: {fileID: 366066299}
   moveSpeed: 3
+  rotationSpeed: 45
 --- !u!4 &1895209107
 Transform:
   m_ObjectHideFlags: 0
