@@ -19,6 +19,10 @@ public class CheckpointSpawner : MonoBehaviour
             GameObject checkpoint = Instantiate(checkpointPrefab, positions[i], Quaternion.identity);
             checkpointTransforms.Add(checkpoint.transform);
 
+            // Assign checkpoint index to the trigger script
+            CheckpointTrigger trigger = checkpoint.AddComponent<CheckpointTrigger>();
+            trigger.checkpointIndex = i;
+
             // Find the TextMeshPro component in the child
             TextMeshPro text = checkpoint.GetComponentInChildren<TextMeshPro>();
             if (text != null)

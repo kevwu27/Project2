@@ -7,7 +7,8 @@ public class ArrowPointer : MonoBehaviour
     public RectTransform arrowImage;
     public List<Transform> checkpoints;
     
-    private int currentCheckpoint = 0;
+    public int currentCheckpoint = 0;
+    // public int CurrentCheckpointIndex => currentCheckpoint;
 
     void Update()
     {
@@ -35,7 +36,8 @@ public class ArrowPointer : MonoBehaviour
             cameraForwardFlat.y = 0;
 
             float angle = Vector3.SignedAngle(cameraForwardFlat.normalized, toCheckpoint.normalized, Vector3.up);
-            arrowImage.localEulerAngles = new Vector3(0, 0, -angle);
+            // arrowImage.localEulerAngles = new Vector3(0, 0, -angle);
+            arrowImage.localEulerAngles = new Vector3(90, 0, 90 - angle);
         }
     }
 

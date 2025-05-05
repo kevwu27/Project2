@@ -406,6 +406,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.60f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ArrowPointer.cs"
 "Assets/Scripts/CheckpointSpawner.cs"
+"Assets/Scripts/CheckpointTrigger.cs"
 "Assets/Scripts/ConsistentMove.cs"
 "Assets/Scripts/FaceCamera.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
