@@ -46,6 +46,7 @@ public class ArrowPointer : MonoBehaviour
         if (currentCheckpoint < checkpoints.Count - 1)
         {
             currentCheckpoint++;
+            Debug.Log(currentCheckpoint);
         }
     }
 }
